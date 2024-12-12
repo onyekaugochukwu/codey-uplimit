@@ -1,0 +1,9 @@
+gitpython
+streamlit
+lancedb
+pypika
+langchain
+langchain-community
+langchain-google-genai
+google-generativeai
+python-magic

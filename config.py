@@ -1,8 +1,13 @@
-# OpenAI API Key (replace with your actual key)
-OPENAI_API_KEY = "YOUR_OPENAI_API_KEY"
+import os
 
-# Vector database settings
-CHROMA_PERSIST_DIR = "./chroma_db"  # Directory for Chroma to store data
+# Google Gemini API Key
+GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"]  # Replace with your actual key
+
+# # LanceDB settings (optional)
+# LANCEDB_URI = "./lancedb"  # URI for LanceDB
+
+# Database configuration
+LANCEDB_URI = os.path.join(os.getcwd(), "lancedb")
 
 # Chunking settings
 CHUNK_SIZE = 1000
